@@ -1,0 +1,54 @@
+#cluster-map {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.navbar {
+    background-color: #335c67;
+}
+
+.footer {
+    background-color: #335c67;
+}
+
+.btn-primary {
+    background-color: #347b8f;
+    border-color: #347b8f;
+}
+
+.btn-primary:hover {
+    background-color: #335c67;
+    border-color: #335c67;
+}
+
+#showImages {
+  width: 400px;
+  height: 210px;
+  object-fit: cover;
+  object-position: 20% 10%;
+  /* background-position: center center;
+  background-repeat: no-repeat; */
+}
+
+/* 
+#indexCards:nth-of-type(1n) {
+    background-color: #fefae0;
+}
+
+#indexCards:nth-of-type(2n) {
+    background-color: #dda15e;
+} */
+
+/* 
+html body {
+    background-color: #fefae0;
+} */
+
+/* #indexCards {
+    background-color: #fefae0;
+} */

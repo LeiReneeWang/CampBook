@@ -1,0 +1,255 @@
+<form action="" class="mb-3">
+    <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#filters" role="button" aria-expanded="false"
+            aria-controls="filters">Filters</a>
+        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#location" aria-expanded="false"
+            aria-controls="location">Location</button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#price"
+            aria-expanded="false" aria-controls="price">Price</button> -->
+        <button class="btn btn-primary">Search</button>
+    </p>
+    <div class="row">
+        <div class="col">
+            <div class="collapse multi-collapse" id="filters">
+                <div class="card card-body">
+                    <h6 class="font-weight-bold mb-3">Location</h6>
+                    <div class="form-check pl-0 mb-3">
+                        <input type="checkbox" class="form-check-input filled-in" id="new">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="new">New</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input type="checkbox" class="form-check-input filled-in" id="used">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="used">Used</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input type="checkbox" class="form-check-input filled-in" id="collectible">
+                        <label class="form-check-label small text-uppercase card-link-secondary"
+                            for="collectible">Collectible</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3 pb-1">
+                        <input type="checkbox" class="form-check-input filled-in" id="renewed">
+                        <label class="form-check-label small text-uppercase card-link-secondary"
+                            for="renewed">Renewed</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="filters">
+                <div class="card card-body">
+                    <h6 class="font-weight-bold mb-3">Price</h6>
+                    <div class="form-check pl-0 mb-3">
+                        <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under
+                            $15</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="2550">$15 to
+                            $30</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input type="radio" class="form-check-input" id="200above" name="materialExampleRadios">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="200above">$30 &
+                            Above</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col">
+            <div class="collapse multi-collapse" id="location">
+                <div class="card card-body">
+                    Some placeholder content for the first collapse component of this multi-collapse example. This panel is
+                    hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="price">
+                <div class="card card-body">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This panel is
+                    hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        </div> -->
+    </div>
+</form>
+
+<!-- reference: https://mdbootstrap.com/docs/b4/jquery/ecommerce/design-blocks/filters/ -->
+<!-- Section: Sidebar -->
+<section>
+    <!-- Section: Filters -->
+    <section>
+        <h5>Filters</h5>
+        <!-- Section: Location -->
+        <section class="mb-4">
+            <h6 class="font-weight-bold mb-3">Location</h6>
+            <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="new">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="new">New</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="used">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="used">Used</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+                <input type="checkbox" class="form-check-input filled-in" id="collectible">
+                <label class="form-check-label small text-uppercase card-link-secondary"
+                    for="collectible">Collectible</label>
+            </div>
+            <div class="form-check pl-0 mb-3 pb-1">
+                <input type="checkbox" class="form-check-input filled-in" id="renewed">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="renewed">Renewed</label>
+            </div>
+        </section>
+        <!-- Section: Location -->
+        <!-- Section: Average -->
+        <section class="mb-4">
+            <h6 class="font-weight-bold mb-3">Avg. Customer Review</h6>
+            <a href="#!">
+                <ul class="rating">
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                    </li>
+                </ul>
+            </a>
+            <a href="#!">
+                <ul class="rating">
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                    </li>
+                </ul>
+            </a>
+            <a href="#!">
+                <ul class="rating">
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                    </li>
+                </ul>
+            </a>
+            <a href="#!">
+                <ul class="rating">
+                    <li>
+                        <i class="fas fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-primary"></i>
+                    </li>
+                    <li>
+                        <p class="small text-uppercase card-link-secondary px-2">& Up</p>
+                    </li>
+                </ul>
+            </a>
+
+        </section>
+        <!-- Section: Average -->
+        <!-- Section: Price -->
+        <!-- <section class="mb-4">
+            <h6 class="font-weight-bold mb-3">Price</h6>
+            <div class="form-check pl-0 mb-3">
+                <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under $25</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+                <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="2550">$25 to $50</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+                <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="50100">$50 to $100</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+                <input type="radio" class="form-check-input" id="100200" name="materialExampleRadios">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="100200">$100 to
+                    $200</label>
+            </div>
+            <div class="form-check pl-0 mb-3">
+                <input type="radio" class="form-check-input" id="200above" name="materialExampleRadios">
+                <label class="form-check-label small text-uppercase card-link-secondary" for="200above">$200 &
+                    Above</label>
+            </div>
+            <form>
+                <div class="d-flex align-items-center mt-4 pb-1">
+                    <div class="md-form md-outline my-0">
+                        <input id="from" type="text" class="form-control mb-0">
+                        <label for="form">$ Min</label>
+                    </div>
+                    <p class="px-2 mb-0 text-muted"> - </p>
+                    <div class="md-form md-outline my-0">
+                        <input id="to" type="text" class="form-control mb-0">
+                        <label for="to">$ Max</label>
+                    </div>
+                </div>
+            </form>
+        </section> -->
+        <!-- Section: Price -->
+        <!-- Section: Price version 2 -->
+        <section class="mb-4">
+            <h6 class="font-weight-bold mb-3">Price</h6>
+            <div class="slider-price d-flex align-items-center my-4">
+                <span class="font-weight-normal small text-muted mr-2">$0</span>
+                <form class="multi-range-field w-100 mb-1">
+                    <input id="multi" class="multi-range" type="range" />
+                </form>
+                <span class="font-weight-normal small text-muted ml-2">$100</span>
+            </div>
+        </section>
+        <!-- Section: Price version 2 -->
+    </section>
+    <!-- Section: Filters -->
+</section>
+<!-- Section: Sidebar -->
